@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clouser practice</title>
+    <script src="clouserApi.js"></script>
+    <script src="clouser.js"></script>
+    <link rel="stylesheet" href="employee.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="heading">Employee payslip genretor</h1>
+      <ul>
+        <li>
+          <input type="text" name="" id="ename" placeholder="Employee name" />
+        </li>
+        <li>
+          <input type="text" name="" id="eage" placeholder=" Employee Age" />
+        </li>
+        <li>
+          <p>Gender:</p>
+
+          <input type="radio" name="gender" value="male" class="gender" />
+          <p>Male</p>
+          <input type="radio" name="gender" value="female" class="gender" />
+          <p>Female</p>
+        </li>
+        <li>
+          <input type="text" id="bsal" placeholder="Basic Salary" />
+        </li>
+        <li>
+          <input type="button" value=" Total Pf" onclick="dothejob('pf')" />
+          <input type="button" value="Total Hra" onclick="dothejob('hra')" />
+          <input
+            type="button"
+            value="Total Salary"
+            onclick="dothejob('Tsal')"
+          />
+          <input type="button" value=" Total Tax" onclick="dothejob('Ttax')" />
+        </li>
+        <li>
+          <div id="rblock"></div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

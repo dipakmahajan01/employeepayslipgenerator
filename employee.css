@@ -1,0 +1,115 @@
+ul {
+  border: 2px solid;
+  width: 50%;
+  height: 621px;
+  margin: auto;
+  background-color: brown;
+}
+
+li {
+  width: 60%;
+  border: 2px solid;
+  margin: 10px auto;
+  padding: 19px;
+  list-style: none;
+  background-color: gray;
+}
+
+#heading {
+  border: 2px solid;
+  margin: 12px 25px;
+  padding: 10px 10px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+input[type="text" i]{
+   
+    width: 130px;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 9px;
+}
+#rblock{
+  font-size: 25px;
+}
+input[type="button" i]{
+  padding: 9px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid;
+}
+input[type="radio"]{
+  width: 35px;
+  height: 25px;
+}
+p{
+  display: inline;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 612px) {
+  input#ename,
+  input#eage,
+  input#bsal {
+    width: 125px;
+  }
+  input.gender {
+    width: 15px;
+  }
+  li {
+    width: 73%;
+    height: 25px;
+    border: 2px solid;
+    margin: 6px auto;
+    padding: 27px;
+    position: relative;
+    list-style: none;
+    right: 20px;
+    background-color: gray;
+  }
+  li input[type="button" i] {
+    float: left;
+  }
+  input[type="button" i] {
+    color: black;
+    position: absolute;
+    bottom: 16px;
+    right: 0px;
+    border: 2px solid;
+    background-color: aliceblue;
+    margin: 3px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 8px;
+}
+input[type="button" i]:hover {
+  background-color: indianred;
+    color: black;
+  }
+  ul {
+    border: 2px solid;
+    width: 88%;
+    height: 555px;
+    margin: auto;
+    background-color: brown;
+  }
+  li input[type="button" i] {
+    float: left;
+    position: relative;
+    bottom: 28px;
+    width: 92px;
+  }
+  input[type="radio" i] {
+    height: 17px;
+    width: 29px;
+}
+p{
+  display: inline;
+}
+#rblock{
+  font-size: 20px;
+}
+
+}
+
